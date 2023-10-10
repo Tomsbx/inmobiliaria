@@ -432,7 +432,7 @@ body {
   margin-block-start: 16px;
   border-block-start: 1px solid var(--neutral-90);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly; /* space-between */
   align-items: center;
   flex-wrap: wrap;
   gap: 12px;
@@ -1066,7 +1066,7 @@ body {
 
   .search-bar {
     min-width: max-content;
-    grid-template-columns: 160px 220px 1fr max-content;
+    grid-template-columns: 200px 260px 1fr max-content;
   }
 
   .search-item .search-item-field {
